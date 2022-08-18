@@ -1,0 +1,29 @@
+{
+  "name": "mysite-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^7.7.5",
+    "express-session": "^1.17.3",
+    "express-unless": "^2.1.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.21.2",
+    "svg-captcha": "^1.4.0",
+    "validate.js": "^0.13.1"
+  }
+}
